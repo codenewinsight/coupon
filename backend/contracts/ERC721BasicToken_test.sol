@@ -15,14 +15,8 @@ contract ERC721BasicTokenTest {
        return Assert.equal(
       success,
       false,
-      "safe multiplication did not revert"
+      "balanceOf function did not revert"
     );
-    //return Assert.equal(true, true, "initial value is not correct");
-    // return Assert.equal(address(token).call.gas(40000).value(1 ether)(abi.encodeWithSignature("balanceOf(address)", address(0))),
-    //    false,
-    //    "Check balance of null address did not rever"
-    // );
-    //return Assert.equal(token.balanceOf(address(0)), 0, "initial value is not correct");
   }
 
 }
